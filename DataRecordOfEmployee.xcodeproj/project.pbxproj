@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9C304541971B98A00AD5323 /* dataS.m in Sources */ = {isa = PBXBuildFile; fileRef = D9C304531971B98A00AD5323 /* dataS.m */; };
 		D9DA5C341970A53B007DC208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA5C331970A53B007DC208 /* Foundation.framework */; };
 		D9DA5C361970A53B007DC208 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA5C351970A53B007DC208 /* CoreGraphics.framework */; };
 		D9DA5C381970A53B007DC208 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA5C371970A53B007DC208 /* UIKit.framework */; };
@@ -14,13 +15,16 @@
 		D9DA5C401970A53B007DC208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C3F1970A53B007DC208 /* main.m */; };
 		D9DA5C441970A53B007DC208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C431970A53B007DC208 /* AppDelegate.m */; };
 		D9DA5C471970A53B007DC208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9DA5C451970A53B007DC208 /* Main.storyboard */; };
-		D9DA5C4A1970A53B007DC208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C491970A53B007DC208 /* ViewController.m */; };
 		D9DA5C4C1970A53B007DC208 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9DA5C4B1970A53B007DC208 /* Images.xcassets */; };
 		D9DA5C531970A53B007DC208 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA5C521970A53B007DC208 /* XCTest.framework */; };
 		D9DA5C541970A53B007DC208 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA5C331970A53B007DC208 /* Foundation.framework */; };
 		D9DA5C551970A53B007DC208 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9DA5C371970A53B007DC208 /* UIKit.framework */; };
 		D9DA5C5D1970A53B007DC208 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9DA5C5B1970A53B007DC208 /* InfoPlist.strings */; };
 		D9DA5C5F1970A53B007DC208 /* DataRecordOfEmployeeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C5E1970A53B007DC208 /* DataRecordOfEmployeeTests.m */; };
+		D9DA5C6A1970A7F8007DC208 /* TabelDatarecordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C691970A7F8007DC208 /* TabelDatarecordTableViewController.m */; };
+		D9DA5C701970BB72007DC208 /* Add.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C6F1970BB72007DC208 /* Add.m */; };
+		D9DA5C761971760B007DC208 /* DisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C751971760B007DC208 /* DisplayViewController.m */; };
+		D9DA5C7919717C6B007DC208 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9DA5C7819717C6B007DC208 /* EditViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D9C304521971B98A00AD5323 /* dataS.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dataS.h; sourceTree = "<group>"; };
+		D9C304531971B98A00AD5323 /* dataS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dataS.m; sourceTree = "<group>"; };
 		D9DA5C301970A53B007DC208 /* DataRecordOfEmployee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataRecordOfEmployee.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DA5C331970A53B007DC208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D9DA5C351970A53B007DC208 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -45,14 +51,20 @@
 		D9DA5C421970A53B007DC208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D9DA5C431970A53B007DC208 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D9DA5C461970A53B007DC208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D9DA5C481970A53B007DC208 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D9DA5C491970A53B007DC208 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D9DA5C4B1970A53B007DC208 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		D9DA5C511970A53B007DC208 /* DataRecordOfEmployeeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataRecordOfEmployeeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9DA5C521970A53B007DC208 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		D9DA5C5A1970A53B007DC208 /* DataRecordOfEmployeeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DataRecordOfEmployeeTests-Info.plist"; sourceTree = "<group>"; };
 		D9DA5C5C1970A53B007DC208 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D9DA5C5E1970A53B007DC208 /* DataRecordOfEmployeeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataRecordOfEmployeeTests.m; sourceTree = "<group>"; };
+		D9DA5C681970A7F8007DC208 /* TabelDatarecordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabelDatarecordTableViewController.h; sourceTree = "<group>"; };
+		D9DA5C691970A7F8007DC208 /* TabelDatarecordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabelDatarecordTableViewController.m; sourceTree = "<group>"; };
+		D9DA5C6E1970BB72007DC208 /* Add.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Add.h; path = ../Add.h; sourceTree = "<group>"; };
+		D9DA5C6F1970BB72007DC208 /* Add.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Add.m; path = ../Add.m; sourceTree = "<group>"; };
+		D9DA5C741971760B007DC208 /* DisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DisplayViewController.h; path = ../DisplayViewController.h; sourceTree = "<group>"; };
+		D9DA5C751971760B007DC208 /* DisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DisplayViewController.m; path = ../DisplayViewController.m; sourceTree = "<group>"; };
+		D9DA5C7719717C6B007DC208 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		D9DA5C7819717C6B007DC208 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +127,16 @@
 				D9DA5C421970A53B007DC208 /* AppDelegate.h */,
 				D9DA5C431970A53B007DC208 /* AppDelegate.m */,
 				D9DA5C451970A53B007DC208 /* Main.storyboard */,
-				D9DA5C481970A53B007DC208 /* ViewController.h */,
-				D9DA5C491970A53B007DC208 /* ViewController.m */,
+				D9DA5C681970A7F8007DC208 /* TabelDatarecordTableViewController.h */,
+				D9DA5C691970A7F8007DC208 /* TabelDatarecordTableViewController.m */,
+				D9DA5C6E1970BB72007DC208 /* Add.h */,
+				D9DA5C6F1970BB72007DC208 /* Add.m */,
+				D9DA5C741971760B007DC208 /* DisplayViewController.h */,
+				D9DA5C751971760B007DC208 /* DisplayViewController.m */,
+				D9DA5C7719717C6B007DC208 /* EditViewController.h */,
+				D9DA5C7819717C6B007DC208 /* EditViewController.m */,
+				D9C304521971B98A00AD5323 /* dataS.h */,
+				D9C304531971B98A00AD5323 /* dataS.m */,
 				D9DA5C4B1970A53B007DC208 /* Images.xcassets */,
 				D9DA5C3A1970A53B007DC208 /* Supporting Files */,
 			);
@@ -249,9 +269,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9DA5C4A1970A53B007DC208 /* ViewController.m in Sources */,
+				D9C304541971B98A00AD5323 /* dataS.m in Sources */,
+				D9DA5C761971760B007DC208 /* DisplayViewController.m in Sources */,
 				D9DA5C441970A53B007DC208 /* AppDelegate.m in Sources */,
+				D9DA5C701970BB72007DC208 /* Add.m in Sources */,
+				D9DA5C7919717C6B007DC208 /* EditViewController.m in Sources */,
 				D9DA5C401970A53B007DC208 /* main.m in Sources */,
+				D9DA5C6A1970A7F8007DC208 /* TabelDatarecordTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +480,7 @@
 				D9DA5C641970A53B007DC208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9DA5C651970A53B007DC208 /* Build configuration list for PBXNativeTarget "DataRecordOfEmployeeTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +489,7 @@
 				D9DA5C671970A53B007DC208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
